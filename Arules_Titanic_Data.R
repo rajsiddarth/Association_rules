@@ -2,7 +2,12 @@ rm(list=ls(all=TRUE))
 
 #setwd("")
 
-load("titanic.raw.rdata")
+#Use install.packages if the packages are not installed
+#install.packages("repmis")
+library(repmis)
+n
+source_data("https://github.com/rajsiddarth119/Datasets/blob/master/titanic.rdata?raw=true")
+
 
 # Profile 5 sample records
 idx <- sample(1:nrow(titanic.raw), 5)
@@ -14,6 +19,7 @@ summary(titanic.raw)
 # minimum confidence: conf=0.8
 # maximum length of rules: maxlen=10
 
+#install.packages("arules")
 library(arules)
 rules.all <- apriori(titanic.raw)
 inspect(rules.all)
@@ -32,7 +38,6 @@ quality(rules) <- round(quality(rules), digits=3)
 
 # Order rules by lift
 rules.sorted <- sort(rules, by="lift")
-
 
 inspect(rules.sorted)
 
@@ -70,6 +75,7 @@ rules <- apriori(titanic.raw, control = list(verbose=F),
 rules.sorted <- sort(rules, by="confidence")
 inspect(rules.sorted)
 
+#install.packages("arulesViz")
 library(arulesViz)
 plot(rules.all)
 
