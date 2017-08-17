@@ -6,7 +6,7 @@ rm(list=ls(all=TRUE))
 #install.packages("repmis")
 library(repmis)
 n
-source_data("https://github.com/rajsiddarth119/Datasets/blob/master/titanic.rdata?raw=true")
+source_data("https://github.com/rajsiddarth/Datasets/blob/master/titanic.rdata?raw=true")
 
 
 # Profile 5 sample records
