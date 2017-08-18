@@ -1,4 +1,10 @@
-Algorithm for Association rules
+Implementation Association rules algorithm in R using arules library:
+
+-Learn how to read transactional data 
+
+-Calculate Support, Confidence and lift
+
+
 1. Titanic data set 
 Features used : 
 Class:Passenger Class
