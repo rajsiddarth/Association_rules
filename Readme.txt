@@ -1,6 +1,6 @@
 Implementation Association rules algorithm in R using arules library:
 
--Learn how to read transactional data 
+-Learn how to convert to and read transactional data 
 
 -Calculate Support, Confidence and lift
 
