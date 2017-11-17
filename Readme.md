@@ -1,16 +1,29 @@
-# Uns
+# Unsupervised Learning :Association Rules
+
+## Project 1
+### Dataset
+
+Using the Titanic data set consisting of features such as : 
+Class:Passenger Class
+
+Sex: Male or Female
+
+Age: Customer Age 
+
+Survived : Did the passenger Survive ?
+
+
+
+
+
+
 
 -Learn how to convert to and read transactional data 
 
 -Calculate Support, Confidence and lift
 
 
-1. Titanic data set 
-Features used : 
-Class:Passenger Class
-Sex: Male or Female
-Age: Customer Age 
-Survived : Did the passenger Survive ?
+
 
 
 2. Flight Delays Data set
