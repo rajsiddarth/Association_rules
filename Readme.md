@@ -1,40 +1,41 @@
 # Unsupervised Learning :Association Rules
 
 ## Objective
--Learn how to convert to and read transactional data 
+- Learn how to convert to and read transactional data 
 
--Calculate Support, Confidence and lift
+- Calculate Support, Confidence and lift
 
 ## Project 1
 ### Dataset used
 
 Using the Titanic data set consisting of features such as : 
 
-Class:Passenger Class
+- Class:Passenger Class
 
-Sex: Male or Female
+- Sex: Male or Female
 
-Age: Customer Age 
+- Age: Customer Age 
 
-Survived : Did the passenger Survive ?
+- Survived : Did the passenger Survive ?
 
 ## Project 2
 ### Dataset used 
 
 Flight Delays Data set
 
-CRS_Departure time  Morning/Afternnon/Evening/Night
-Carrier
+- CRS_Departure time  Morning/Afternnon/Evening/Night
 
-Destination
+- Carrier
 
-Origin
+- Destination
 
-Weather conditions
+- Origin
 
-Day of the week
+- Weather conditions
 
-Fight status: Whether flight is delayed or not ?
+- Day of the week
+
+- Fight status: Whether flight is delayed or not ?
 
 ## Packages used 
 1. repmis
