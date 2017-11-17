@@ -1,4 +1,4 @@
-Implementation Association rules algorithm in R using arules library:
+# Uns
 
 -Learn how to convert to and read transactional data 
 
